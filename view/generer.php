@@ -59,9 +59,9 @@
 
     if(isset($_POST["choix1"])){
         ?>
-        <div class="alert alert-success fixed-top">
+        <div class="alert alert-success fixed-top text-center">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <strong>Merci, </strong> votre score est de <?= round($resutat).", ".$appreciation ?></a>
+            <strong>Merci, </strong> votre score est de <?= round($resutat)."/20, ".$appreciation ?></a>
         </div>
         <?php
     }
